@@ -17,6 +17,8 @@ const Navbar = () => {
                             <Link to="/tools">Tools</Link>
                             <Link to="/business">Business Summary</Link>
                             <Link to="/blogs">Blogs</Link>
+                            <Link to="/portfolio">Portfolio</Link>
+
                         </li>
                     </ul>
                 </div>
@@ -28,6 +30,7 @@ const Navbar = () => {
                     <li><Link to="/tools">Tools</Link></li>
                     <li><Link to="/business">Business Summary</Link></li>
                     <li><Link to='/blogs'>Blogs</Link></li>
+                    <li><Link to='/portfolio'>Portfolio</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
