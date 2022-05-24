@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../img/my-img.jpg';
+import map from '../../img/google.gif';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -89,6 +90,68 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className=' pb-10'>
+                <h3 className='text-center font-bold text-2xl text-primary ml-24 mb-20'>SKILLS:</h3>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                    <div className='skill justify-self-center ml-24'>
+                        <div className='text-start flex'>
+                            <div>
+                                <p className='text-start'>HTML5</p>
+                                <p><progress class="progress w-96 " value="90" max="100"></progress></p>
+                            </div>
+                            <p>90%</p>
+                        </div>
+                        <div className='text-start flex'>
+                            <div>
+                                <p className='text-start'>CSS3</p>
+                                <p><progress class="progress w-96 " value="90" max="100"></progress></p>
+                            </div>
+                            <p>90%</p>
+                        </div>
+                        <div className='text-start flex'>
+                            <div>
+                                <p className='text-start'>Javascript</p>
+                                <p><progress class="progress w-96 " value="95" max="100"></progress></p>
+                            </div>
+                            <p>95%</p>
+                        </div>
+                    </div>
+                    <div className='justify-center items-center'>
+                        <h4 className='text-center text-primary font-bold text-2xl'>Welcome To my Skills Parts:</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur excepturi rerum, error, possimus iure veritatis ea similique dolorem aliquam molestias officia illum praesentium eligendi iusto debitis minima? Nemo, nisi. Odit est repellat quas? Ratione nam possimus repudiandae debitis perspiciatis temporibus sint quas iusto voluptas consequatur iste voluptatum aut minima, ad, tempore eum distinctio itaque ab cumque. Eaque quis molestias aperiam, ipsum officia sunt minus voluptates eum ducimus iste animi harum quidem eius architecto sit excepturi illum iure culpa omnis ipsam alias placeat. Vero sit quisquam nesciunt quasi quaerat culpa tempore in iste numquam modi veritatis repellat laborum nemo ad libero, rem reprehenderit eius </p>
+                    </div>
+                </div>
+            </section>
+            <section className="about-container my-20">
+                <h4 className='text-start font-bold text-2xl text-primary my-20'>Contact Me:</h4>
+
+                <div className='flex justify-around'>
+                    <div>99999
+                        <h4>Please contact Me:</h4>
+                        <form >
+                            <label class="label">
+                                <span class="label-text">Name</span>
+                            </label>
+                            <input type="text" placeholder="Enter Your name" class="input input-bordered w-96 max-w-xs" required />
+
+                            <label class="label">
+                                <span class="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="Enter Your Email" class="input input-bordered w-96 max-w-xs" required />
+
+                            <label class="label">
+                                <span class="label-text">Password</span>
+                            </label>
+                            <input type="password" placeholder="password" class="input input-bordered w-96 max-w-xs" required />
+                            <br />
+                            <input type="button" value="Submit" className='btn btn-primary w-60' />
+                        </form>
+                    </div>
+                    <div>
+                        <img src={map} alt="" />
                     </div>
                 </div>
             </section>
