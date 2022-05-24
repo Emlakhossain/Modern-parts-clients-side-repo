@@ -93,6 +93,22 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
+            {/* My projects profile code in below */}
+            <section>
+                <h4 className='text-center font-bold text-2xl text-primary mt-20'>Task Completed</h4>
+                <div class="card w-4/5 bg-base-100 shadow-xl items-center mx-auto my-10">
+                    <div class="card-body">
+                        <h2 class="card-title">My Projects:</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
+                        <div class="card-actions justify-center mt-10">
+                            <button class="btn btn-outline">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className=' pb-10'>
                 <h3 className='text-center font-bold text-2xl text-primary ml-24 mb-20'>SKILLS:</h3>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
@@ -129,8 +145,8 @@ const Portfolio = () => {
                 <h4 className='text-start font-bold text-2xl text-primary my-20'>Contact Me:</h4>
 
                 <div className='flex justify-around'>
-                    <div>99999
-                        <h4>Please contact Me:</h4>
+                    <div>
+                        <h4 className='text-center font-bold '>Please contact Me:</h4>
                         <form >
                             <label class="label">
                                 <span class="label-text">Name</span>
@@ -147,7 +163,7 @@ const Portfolio = () => {
                             </label>
                             <input type="password" placeholder="password" class="input input-bordered w-96 max-w-xs" required />
                             <br />
-                            <input type="button" value="Submit" className='btn btn-primary w-60' />
+                            <input type="button" value="Submit" className='btn btn-primary w-96 my-5 max-w-xs' />
                         </form>
                     </div>
                     <div>
