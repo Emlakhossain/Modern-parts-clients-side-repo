@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    },
+    {
+        "id": 2,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    },
+    {
+        "id": 3,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    },
+    {
+        "id": 4,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    },
+    {
+        "id": 5,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    },
+    {
+        "id": 6,
+        "name": "Toyota taiyar",
+        "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "price": 200,
+        "quantity": 100
+    }
+]

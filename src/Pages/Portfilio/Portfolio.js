@@ -95,8 +95,8 @@ const Portfolio = () => {
             </section>
             {/* My projects profile code in below */}
             <section>
-                <h4 className='text-center font-bold text-2xl text-primary mt-20'>Task Completed</h4>
-                <div class="card w-4/5 bg-base-100 shadow-xl items-center mx-auto my-10">
+                <h4 className='text-center font-bold text-2xl text-primary mt-20'>Completed Task</h4>
+                <div class="card w-4/5 bg-slate-100 shadow-xl items-center mx-auto my-10">
                     <div class="card-body">
                         <h2 class="card-title">My Projects:</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
@@ -141,7 +141,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-            <section className="about-container my-20">
+            <section className="about-container py-20">
                 <h4 className='text-start font-bold text-2xl text-primary my-20'>Contact Me:</h4>
 
                 <div className='flex justify-around'>

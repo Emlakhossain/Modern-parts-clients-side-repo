@@ -3,7 +3,7 @@ import React from 'react';
 const RewardSection = () => {
     return (
         <>
-            <h2 className='text-3xl text-center my-20 font-bold text-secondary'>Business Overview</h2>
+            <h2 className='text-3xl text-center my-40 font-bold text-secondary'>Business Overview</h2>
             <div class=" stats stats-vertical lg:stats-horizontal shadow w-screen ">
 
                 <div class="stat flex items-center gap-5 my-10">

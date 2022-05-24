@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClientsReview = () => {
     return (
-        <div className='drop-shadow-lg mb-20'>
+        <div className='drop-shadow-lg my-40'>
             <h2 className="text-3xl font-bold text-center text-secondary my-20">
                 Customer Reviews
 
@@ -18,7 +18,7 @@ const ClientsReview = () => {
                         <h2 class="card-title">Shoes!</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-outline w-60 mt-5">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const ClientsReview = () => {
                         <h2 class="card-title">Shoes!</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-outline w-60 mt-5">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const ClientsReview = () => {
                         <h2 class="card-title">Shoes!</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-outline w-60 mt-5">Buy Now</button>
                         </div>
                     </div>
                 </div>
