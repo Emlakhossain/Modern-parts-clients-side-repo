@@ -7,7 +7,7 @@ const ClientsReview = () => {
                 Customer Reviews
 
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto'>
                 <div class="card w-96 bg-base-100 shadow-xl ml-10">
                     <div class="avatar justify-center">
                         <div class="w-24 mask mask-hexagon">
