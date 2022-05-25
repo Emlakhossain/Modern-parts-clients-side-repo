@@ -99,10 +99,12 @@ const Portfolio = () => {
                 <div class="card w-4/5 bg-slate-100 shadow-xl items-center mx-auto my-10">
                     <div class="card-body">
                         <h2 class="card-title">My Projects:</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat?</p>
+                        <p>1. <strong><a href="https://zingy-begonia-143548.netlify.app/home">Independent products services Project link</a></strong></p>
+                        <p>2. <strong><a href="https://dainty-pika-8f2fc8.netlify.app/about">product-analysis-website live site link </a></strong></p>
+                        <p>3. <strong><a href="https://dainty-pika-8f2fc8.netlify.app/about">product-analysis-website live site link </a></strong></p>
+                        <p>4. <strong><a href="https://dainty-pika-8f2fc8.netlify.app/about">product-analysis-website live site link </a></strong></p>
+                        <p>5. <strong><a href="https://dainty-pika-8f2fc8.netlify.app/about">product-analysis-website live site link </a></strong></p>
+
                         <div class="card-actions justify-center mt-10">
                             <button class="btn btn-outline">Learn More</button>
                         </div>
