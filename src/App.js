@@ -9,6 +9,7 @@ import Footer from './Pages/Home/Shared/Footer';
 import Portfolio from './Pages/Portfilio/Portfolio';
 import Login from './Pages/Home/Shared/Login';
 import SignUp from './Pages/Home/Shared/SignUp';
+import RequireAuth from './Pages/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/tools' element={<Tools></Tools>}></Route>
+        <Route path='/Purchase' element={<RequireAuth>
+          <Tools></Tools>
+        </RequireAuth>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>

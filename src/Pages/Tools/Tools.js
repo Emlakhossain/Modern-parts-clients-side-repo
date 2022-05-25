@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Products from './Products';
+import PurchaseModal from './PurchaseModal';
 
 const Tools = () => {
     const [products, setProducts] = useState([]);
-
+    const [purchase, setPurchase] = useState(null)
     useEffect(() => {
         fetch('parts.json')
             .then(res => res.json())
@@ -17,9 +18,16 @@ const Tools = () => {
                     products.map(product => <Products
                         key={product}
                         product={product}
+                        setPurchase={setPurchase}
                     ></Products>)
                 }
             </div>
+            {
+                purchase && <PurchaseModal
+                    purchase={purchase}
+                    setPurchase={setPurchase}
+                ></PurchaseModal>
+            }
         </div>
     );
 };
