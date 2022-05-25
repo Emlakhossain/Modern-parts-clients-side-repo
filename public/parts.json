@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Toyota taiyar",
+        "name": "TAIYAR-18",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
         "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
         "price": 200,
@@ -9,25 +9,25 @@
     },
     {
         "id": 2,
-        "name": "Toyota taiyar",
+        "name": "GEAR BOX ",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
-        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
-        "price": 200,
+        "img": "https://www.pngall.com/wp-content/uploads/8/Gear-Box-PNG-Image.png",
+        "price": 600,
         "quantity": 100
     },
     {
         "id": 3,
-        "name": "Toyota taiyar",
+        "name": "CAR LED LIGHT",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
-        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "img": "https://www.naijatechguide.com/wp-content/uploads/2019/02/headlight.png",
         "price": 200,
         "quantity": 100
     },
     {
         "id": 4,
-        "name": "Toyota taiyar",
+        "name": "OIL FILTER",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
-        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "img": "https://spareto.com/system/products/643263/original/hdf961-fuel-filter.png?1540370678",
         "price": 200,
         "quantity": 100
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Toyota taiyar",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
-        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "img": "https://simg.nicepng.com/png/small/210-2103004_vintage-platinum-spark-plugs-png-transparent-generator-spark.png",
         "price": 200,
         "quantity": 100
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Toyota taiyar",
         "description": "This Toyota japanis number 1 tubeless tayer. Its one of the most topest brand in world",
-        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/parts--service--genuine-toyota-parts--tires-16.png",
+        "img": "https://www.freeiconspng.com/thumbs/auto-parts-png/auto-parts-png-0.png",
         "price": 200,
         "quantity": 100
     }
