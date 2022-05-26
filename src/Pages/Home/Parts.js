@@ -5,7 +5,7 @@ const Parts = () => {
     const [parts, setParts] = useState([]);
 
     useEffect(() => {
-        fetch('parts.json')
+        fetch('http://localhost:5000/product')
             .then(res => res.json())
             .then(data => setParts(data))
     }, [])
@@ -17,7 +17,7 @@ const Parts = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mx-auto'>
                 {
                     parts.map(part => <Part
-                        key={part.id}
+                        key={part._id}
                         part={part}
                     ></Part>)
                 }

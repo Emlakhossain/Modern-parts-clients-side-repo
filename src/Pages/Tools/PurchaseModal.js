@@ -1,16 +1,41 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 
 const PurchaseModal = ({ purchase, setPurchase }) => {
     const [user, loading, error] = useAuthState(auth);
-    const { name, price, quantity } = purchase;
+    const { name, price, quantity, _id } = purchase;
 
     const handleFormSubmit = event => {
         event.preventDefault();
         const quantity = event.target.quantity.value;
+        const booking = {
+            productId: _id,
+            product: name,
+            buyer: user.email,
+            quantity: quantity,
+            BuyerName: user.displayName,
+        }
+        fetch('http://localhost:5000/booking', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(booking)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if (data.success) {
+                    toast(`successfully Order done${name}`)
+                }
+                else {
+                    toast.error(`Already have an appoinment on at `)
+                }
+                setPurchase(null)
+            })
 
-        setPurchase(null)
     }
 
     return (

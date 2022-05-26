@@ -20,6 +20,9 @@ const Navbar = () => {
             <Link to="/blogs">Blogs</Link>
             <Link to="/portfolio">Portfolio</Link>
             {
+                user && <li><Link to="/dashboard">Dashboard</Link></li>
+            }
+            {
                 user ? <button class="btn btn-outline" onClick={logout}>Sign Out</button> :
                     <Link to="/login">Login</Link>}
 
