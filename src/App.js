@@ -14,6 +14,7 @@ import { ToastContainer } from 'react-toastify';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import MyPurchase from './Pages/Dashboard/MyPurchase';
 import MyReview from './Pages/Dashboard/MyReview';
+import PageNotFound from './Pages/Home/Shared/PageNotFound';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
       <Footer></Footer>
 

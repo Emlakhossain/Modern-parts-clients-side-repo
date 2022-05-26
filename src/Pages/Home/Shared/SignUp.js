@@ -3,6 +3,7 @@ import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfil
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from "react-router-dom";
 import auth from '../../../firebase.init';
+import Loading from './Loading';
 
 
 
@@ -24,10 +25,10 @@ const SignUp = () => {
     let signInError;
     if (user || gUser) {
 
-        navigate('/')
+        navigate('/purchase')
     }
     if (gLoading || loading || updating) {
-        return
+        return <Loading></Loading>
     }
     if (gError || error || updateError) {
         signInError = <p className='text-red-500'><small>{gError?.message || error?.message}</small></p>

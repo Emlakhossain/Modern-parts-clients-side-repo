@@ -31,7 +31,7 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
                     toast(`successfully Order done${name}`)
                 }
                 else {
-                    toast.error(`Already have an appoinment on at `)
+                    toast.error(`Already added `)
                 }
                 setPurchase(null)
             })
@@ -46,7 +46,7 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
                     <h4 class="font-bold text-xl text-secondary">Product Name: {name}!</h4>
                     <form onSubmit={handleFormSubmit} className='grid grid-cols-1 gap-3 justify-items-center mt-2'>
 
-                        <input type="text" name="quantity" value={quantity || ''} class="input input-bordered w-full max-w-xs" />
+                        <input type="text" name='quantity' placeholder='quantity' value={quantity || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" disabled name="Name" value={user?.displayName || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" name='Email' disabled value={user?.email || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" name='Phone' placeholder='phone Number' class="input input-bordered w-full max-w-xs" />

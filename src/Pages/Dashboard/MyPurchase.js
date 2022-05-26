@@ -29,8 +29,8 @@ const MyPurchase = () => {
                 </thead>
                 <tbody>
                     {
-                        buyers.map(b => <tr>
-                            <th>1</th>
+                        buyers.map((b, index) => <tr>
+                            <th>{index + 1}</th>
                             <td>{b.purchaser}</td>
                             <td>{b.productName}</td>
                             <td>{b.quantity}</td>

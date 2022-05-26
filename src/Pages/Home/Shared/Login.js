@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useForm } from 'react-hook-form';
+import Loading from './Loading';
 
 
 const Login = () => {
@@ -25,7 +26,7 @@ const Login = () => {
         navigate(from, { replace: true });
     }
     if (gLoading || loading) {
-        return
+        return <Loading></Loading>
     }
     if (gError || error) {
         signInError = <p className='text-red-500'><small>{gError?.message || error?.message}</small></p>
