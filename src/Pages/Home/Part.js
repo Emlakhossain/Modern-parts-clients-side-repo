@@ -13,7 +13,7 @@ const Part = ({ part }) => {
                 <p className='text-start'>Per Unite:${price}</p>
                 <p className='text-start'>Stock:{quantity}</p>
                 <div class="card-actions items-center">
-                    <button class="btn btn-outline w-60 text-secondary mt-10">Purchase Now</button>
+                    <button class="btn btn-outline w-60 text-secondary mt-10">LEARN MORE</button>
                 </div>
             </div>
         </div>

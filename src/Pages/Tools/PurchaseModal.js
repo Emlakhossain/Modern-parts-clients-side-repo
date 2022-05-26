@@ -8,7 +8,7 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
 
     const handleFormSubmit = event => {
         event.preventDefault();
-
+        const quantity = event.target.quantity.value;
 
         setPurchase(null)
     }
@@ -18,17 +18,14 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
             <input type="checkbox" id="booking-modal" class="modal-toggle" />
             <div class="modal modal-bottom sm:modal-middle">
                 <div class="modal-box">
-                    <h4 class="font-bold text-xl text-secondary">Booking For: {name}!</h4>
+                    <h4 class="font-bold text-xl text-secondary">Product Name: {name}!</h4>
                     <form onSubmit={handleFormSubmit} className='grid grid-cols-1 gap-3 justify-items-center mt-2'>
-                        <input disabled type="text" class="input input-bordered w-full max-w-xs" />
-                        <select name="slot" class="select select-bordered w-full max-w-xs">
 
-
-                        </select>
+                        <input type="text" name="quantity" value={quantity || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" disabled name="Name" value={user?.displayName || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" name='Email' disabled value={user?.email || ''} class="input input-bordered w-full max-w-xs" />
                         <input type="text" name='Phone' placeholder='phone Number' class="input input-bordered w-full max-w-xs" />
-                        <input type="submit" value="submit" class="btn btn-secondary w-full max-w-xs" />
+                        <input type="submit" value="Purchase Order" class="btn btn-secondary w-full max-w-xs" />
 
                     </form>
                     <div class="modal-action">
