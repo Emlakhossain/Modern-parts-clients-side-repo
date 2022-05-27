@@ -15,6 +15,7 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 import MyPurchase from './Pages/Dashboard/MyPurchase';
 import MyReview from './Pages/Dashboard/MyReview';
 import PageNotFound from './Pages/Home/Shared/PageNotFound';
+import Users from './Pages/Dashboard/Users';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </RequireAuth>}>
           <Route index element={<MyPurchase></MyPurchase>}></Route>
           <Route path='review' element={<MyReview></MyReview>}></Route>
+          <Route path='users' element={<Users></Users>}></Route>
         </Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
