@@ -10,6 +10,7 @@ const Navbar = () => {
     const nevigate = useNavigate()
     const logout = () => {
         signOut(auth);
+        localStorage.removeItem('accessToken');
         nevigate('/')
     };
     const menuList = <>

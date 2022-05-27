@@ -16,6 +16,7 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
             buyer: user.email,
             quantity: quantity,
             BuyerName: user.displayName,
+
         }
         fetch('http://localhost:5000/booking', {
             method: 'POST',
