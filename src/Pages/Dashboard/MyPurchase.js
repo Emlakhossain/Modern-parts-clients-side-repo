@@ -6,12 +6,14 @@ const MyPurchase = () => {
     const [buyers, setBuyers] = useState([]);
     const [user] = useAuthState(auth);
     useEffect(() => {
+        if (user) {
 
-        fetch(`http://localhost:5000/booking`)
-            .then(res => res.json())
-            .then(data => setBuyers(data))
+            fetch(`http://localhost:5000/booking?buyer=${buyers.email}`)
+                .then(res => res.json())
+                .then(data => setBuyers(data))
 
-    }, [])
+        }
+    }, [user])
 
     return (
         <div class="overflow-x-auto">
@@ -32,7 +34,7 @@ const MyPurchase = () => {
                     {
                         buyers.map((b, index) => <tr>
                             <th>{index + 1}</th>
-                            <td>{b.buyerName}</td>
+                            <td>{b.BuyerName}</td>
                             <td>{b.product}</td>
                             <td>{b.buyer}</td>
                             <td>{b.quantity}</td>
