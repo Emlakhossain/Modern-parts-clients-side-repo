@@ -23,6 +23,7 @@ const MyPurchase = () => {
                         <th>Name</th>
                         <th>Products</th>
                         <th>Email</th>
+                        <th>Qty</th>
                         <th>Status</th>
 
                     </tr>
@@ -31,8 +32,9 @@ const MyPurchase = () => {
                     {
                         buyers.map((b, index) => <tr>
                             <th>{index + 1}</th>
-                            <td>{b.purchaser}</td>
-                            <td>{b.productName}</td>
+                            <td>{b.buyerName}</td>
+                            <td>{b.product}</td>
+                            <td>{b.buyer}</td>
                             <td>{b.quantity}</td>
                             <td>pending</td>
                         </tr>)
