@@ -6,7 +6,7 @@ const Tools = () => {
     const [products, setProducts] = useState([]);
     const [purchase, setPurchase] = useState(null)
     useEffect(() => {
-        fetch('http://localhost:5000/product')
+        fetch('https://sheltered-sea-15450.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])

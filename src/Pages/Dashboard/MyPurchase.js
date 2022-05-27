@@ -11,7 +11,7 @@ const MyPurchase = () => {
     useEffect(() => {
         if (user) {
 
-            fetch(`http://localhost:5000/booking?buyer=${buyers.email}`, {
+            fetch(`https://sheltered-sea-15450.herokuapp.com/booking?buyer=${buyers.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer${localStorage.getItem('accessToken')}`

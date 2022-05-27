@@ -18,7 +18,7 @@ const PurchaseModal = ({ purchase, setPurchase }) => {
             BuyerName: user.displayName,
 
         }
-        fetch('http://localhost:5000/booking', {
+        fetch('https://sheltered-sea-15450.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
