@@ -10,7 +10,6 @@ import Portfolio from './Pages/Portfilio/Portfolio';
 import Login from './Pages/Home/Shared/Login';
 import SignUp from './Pages/Home/Shared/SignUp';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
-import { ToastContainer } from 'react-toastify';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import MyPurchase from './Pages/Dashboard/MyPurchase';
 import MyReview from './Pages/Dashboard/MyReview';

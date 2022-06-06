@@ -18,9 +18,8 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const { register, formState: { errors }, handleSubmit } = useForm();
-    const [token] = useToken(user || gUser)
     let location = useLocation(gUser || user);
-
+    const [token] = useToken(user || gUser)
     let from = location.state?.from?.pathname || "/";
     let signInError;
 
